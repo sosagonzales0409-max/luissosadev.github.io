@@ -178,7 +178,7 @@ main {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 3.5rem 0;
 }
 
 h2 {
@@ -276,6 +276,12 @@ h2 {
 
 .project-links a:hover {
   opacity: 0.7;
+}
+
+.no-link {
+  font-size: 0.8rem;
+  color: #52525b;
+  font-style: italic;
 }
 
 .experience-card {
