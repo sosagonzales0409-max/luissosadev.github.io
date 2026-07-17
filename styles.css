@@ -286,17 +286,55 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.experience-card h3 {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #22d3ee;
-  margin-bottom: 0.5rem;
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.3rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-.experience-card p {
+.exp-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e4e4e7;
+}
+
+.exp-company {
+  display: block;
+  font-size: 0.85rem;
+  color: #22d3ee;
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+
+.exp-date {
+  font-size: 0.8rem;
+  color: #71717a;
+  white-space: nowrap;
+}
+
+.exp-list {
+  list-style: none;
+  margin-top: 0.8rem;
+}
+
+.exp-list li {
+  position: relative;
+  padding-left: 1.2rem;
   color: #a1a1aa;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   line-height: 1.7;
+  margin-bottom: 0.3rem;
+}
+
+.exp-list li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: #22d3ee;
+  font-weight: 700;
 }
 
 #contacto {

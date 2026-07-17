@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Luis Sosa | React Native Developer</title>
-  <meta name="description" content="Portafolio de Luis Sosa, React Native Developer con 3 años de experiencia en desarrollo móvil." />
+  <title>Luis Sosa | Frontend Developer</title>
+  <meta name="description" content="Portafolio de Luis Sosa, Frontend Developer con 3 años de experiencia en React Native y React." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,28 +22,37 @@
 
   <header>
     <div class="header-content">
-      <div class="header-badge">React Native Developer</div>
+      <div class="header-badge">Frontend Developer</div>
       <h1>Luis Alberto <span>Sosa González</span></h1>
       <p class="header-subtitle">
-        +3 años creando aplicaciones móviles multiplataforma. Especialista en React Native,
-        Firebase y automatización de CI/CD. Ingeniero en TI titulado.
+        +3 años desarrollando aplicaciones móviles y web con React Native y React.
+        Experiencia en Firebase, Redux, automatización de CI/CD y despliegue de
+        30+ apps en producción. Ingeniero en TI titulado.
       </p>
       <div class="skills">
         <span class="skill">React Native</span>
         <span class="skill">React.js</span>
         <span class="skill">TypeScript</span>
+        <span class="skill">JavaScript</span>
         <span class="skill">Firebase</span>
         <span class="skill">Redux</span>
+        <span class="skill">React Navigation</span>
         <span class="skill">Fastlane</span>
         <span class="skill">CI/CD</span>
         <span class="skill">Git</span>
+        <span class="skill">i18next</span>
         <span class="skill">Jest</span>
-        <span class="skill">Tailwind CSS</span>
+        <span class="skill">Sentry</span>
         <span class="skill">Node.js</span>
+        <span class="skill">Express</span>
+        <span class="skill">MongoDB</span>
         <span class="skill">Expo</span>
+        <span class="skill">REST APIs</span>
+        <span class="skill">Reanimated</span>
+        <span class="skill">Notifee</span>
       </div>
       <div class="header-links">
-        <a href="https://github.com/LuisSosaDev" target="_blank" class="btn btn-outline">GitHub</a>
+        <a href="https://github.com/sosagonzales0409-max" target="_blank" class="btn btn-outline">GitHub</a>
         <a href="https://www.linkedin.com/in/luis-sosa-reactnative" target="_blank" class="btn btn-outline">LinkedIn</a>
         <a href="#contacto" class="btn btn-primary">Contacto</a>
       </div>
@@ -51,51 +60,54 @@
   </header>
 
   <main>
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <p class="section-subtitle">Trayectoria profesional y logros técnicos</p>
+
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <h3>React Native Developer</h3>
+            <span class="exp-company">Beehive — Proyecto campus_móvil</span>
+          </div>
+          <span class="exp-date">2022 — 2025</span>
+        </div>
+        <ul class="exp-list">
+          <li>Arquitectura white-label con 30+ variantes de app publicadas en App Store y Google Play</li>
+          <li>Automatización de CI/CD con Fastlane + Bitbucket + Xcode Cloud, reduciendo deploys de días a horas</li>
+          <li>Implementación de Firebase Auth, Firestore, Cloud Messaging, Analytics, Storage y Crashlytics</li>
+          <li>Notificaciones push, lector QR, chat en tiempo real, autenticación biométrica y firma digital</li>
+          <li>Gestión de estado con Redux + Thunk, navegación con React Navigation</li>
+          <li>Soporte multi-idioma con react-native-localization (EN/ES)</li>
+          <li>Monitoreo de errores en producción con Sentry</li>
+        </ul>
+      </div>
+    </section>
+
     <section id="proyectos">
       <h2>Proyectos</h2>
-      <p class="section-subtitle">Proyectos personales y profesionales que demuestran mi experiencia técnica</p>
+      <p class="section-subtitle">Proyectos personales que demuestran mi stack técnico</p>
 
       <div class="projects-grid">
-        <article class="project-card">
-          <div class="project-header">
-            <h3>campus_móvil</h3>
-            <span class="project-badge">Principal</span>
-          </div>
-          <p class="project-desc">
-            Arquitectura white-label con 30+ variantes de app publicadas en tiendas.
-            Base de código compartida con branding personalizado por cliente.
-          </p>
-          <div class="project-stack">
-            <span>React Native</span>
-            <span>Redux Thunk</span>
-            <span>Firebase</span>
-            <span>Fastlane</span>
-            <span>CI/CD</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/LuisSosaDev" target="_blank">GitHub</a>
-          </div>
-        </article>
-
         <article class="project-card">
           <div class="project-header">
             <h3>TaskFlow</h3>
             <span class="project-badge">Web</span>
           </div>
           <p class="project-desc">
-            Aplicación web de gestión de tareas tipo Kanban con autenticación,
-            sincronización en tiempo real, modo oscuro y multi-idioma.
+            App web de gestión de tareas tipo Kanban con autenticación, sincronización
+            en tiempo real, modo oscuro y multi-idioma. Desplegada en Vercel.
           </p>
           <div class="project-stack">
             <span>React</span>
             <span>TypeScript</span>
-            <span>Tailwind CSS</span>
             <span>Firebase</span>
-            <span>Vercel</span>
+            <span>React Router</span>
+            <span>i18next</span>
           </div>
           <div class="project-links">
             <a href="https://taskflow-lake-five.vercel.app" target="_blank">Demo</a>
-            <a href="https://github.com/LuisSosaDev" target="_blank">GitHub</a>
+            <a href="https://github.com/sosagonzales0409-max/taskflow" target="_blank">GitHub</a>
           </div>
         </article>
 
@@ -107,77 +119,18 @@
           <p class="project-desc">
             App de recordatorios con notificaciones push y locales programadas
             mediante FCM y Notifee. Sincronización en tiempo real con Firestore.
+            Soporte multi-idioma y persistencia offline.
           </p>
           <div class="project-stack">
             <span>React Native</span>
             <span>Firebase</span>
             <span>FCM</span>
             <span>Notifee</span>
+            <span>i18n</span>
             <span>Jest</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/LuisSosaDev" target="_blank">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-header">
-            <h3>LudyGames</h3>
-            <span class="project-badge">Juego</span>
-          </div>
-          <p class="project-desc">
-            Juego estilo Flappy Bird desarrollado con React Native, Skia y Reanimated
-            para animaciones fluidas a 60 FPS.
-          </p>
-          <div class="project-stack">
-            <span>React Native</span>
-            <span>Skia</span>
-            <span>Reanimated</span>
-            <span>TypeScript</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/LuisSosaDev" target="_blank">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-header">
-            <h3>LudyScan</h3>
-            <span class="project-badge">Mobile</span>
-          </div>
-          <p class="project-desc">
-            Escáner de redes WiFi con React Native, obteniendo información de redes
-            cercanas y conectividad.
-          </p>
-          <div class="project-stack">
-            <span>React Native</span>
-            <span>WiFi</span>
-            <span>Axios</span>
-            <span>TypeScript</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/LuisSosaDev" target="_blank">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-header">
-            <h3>ServerGraphQL</h3>
-            <span class="project-badge">Backend</span>
-          </div>
-          <p class="project-desc">
-            API GraphQL con Apollo Server, Express y MongoDB. Incluye WebSockets
-            para suscripciones en tiempo real.
-          </p>
-          <div class="project-stack">
-            <span>Apollo Server</span>
-            <span>Express</span>
-            <span>MongoDB</span>
-            <span>WebSockets</span>
-            <span>Node.js</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/LuisSosaDev" target="_blank">GitHub</a>
+            <a href="https://github.com/sosagonzales0409-max/Remindme" target="_blank">GitHub</a>
           </div>
         </article>
 
@@ -187,58 +140,77 @@
             <span class="project-badge">Boilerplate</span>
           </div>
           <p class="project-desc">
-            Boilerplate production-ready con Expo SDK 54, Firebase, NativeWind,
-            autenticación, modo oscuro, notificaciones push y i18n.
+            Boilerplate production-ready con Expo SDK 54, Firebase, Redux Toolkit,
+            autenticación, modo oscuro, notificaciones push y multi-idioma.
           </p>
           <div class="project-stack">
             <span>Expo</span>
             <span>Firebase</span>
-            <span>NativeWind</span>
+            <span>Redux Toolkit</span>
             <span>TypeScript</span>
-            <span>React Query</span>
+            <span>React Hook Form</span>
+            <span>Google Sign-In</span>
           </div>
-          <div class="project-links">
-            <a href="https://github.com/LuisSosaDev" target="_blank">GitHub</a>
-          </div>
+          <div class="project-links"></div>
         </article>
-      </div>
-    </section>
 
-    <section id="experiencia">
-      <h2>Experiencia Destacada</h2>
+        <article class="project-card">
+          <div class="project-header">
+            <h3>LudyGames</h3>
+            <span class="project-badge">Juego</span>
+          </div>
+          <p class="project-desc">
+            Juego estilo Flappy Bird con animaciones fluidas usando React Native
+            y Reanimated para renderizado a 60 FPS.
+          </p>
+          <div class="project-stack">
+            <span>React Native</span>
+            <span>Reanimated</span>
+            <span>TypeScript</span>
+          </div>
+          <div class="project-links"></div>
+        </article>
 
-      <div class="experience-card">
-        <h3>Automatización de CI/CD para 30+ apps</h3>
-        <p>
-          Implementé un pipeline automatizado con Fastlane, Bitbucket y Xcode Cloud
-          que redujo el despliegue de 30+ aplicaciones de varios días a solo horas.
-          El pipeline manejaba errores individualmente y generaba reportes para
-          seguimiento de fallos.
-        </p>
-      </div>
+        <article class="project-card">
+          <div class="project-header">
+            <h3>LudyScan</h3>
+            <span class="project-badge">Mobile</span>
+          </div>
+          <p class="project-desc">
+            Escáner de redes WiFi con React Native y React Navigation.
+            Escaneo de redes cercanas desde dispositivos Android.
+          </p>
+          <div class="project-stack">
+            <span>React Native</span>
+            <span>React Navigation</span>
+            <span>TypeScript</span>
+          </div>
+          <div class="project-links"></div>
+        </article>
 
-      <div class="experience-card">
-        <h3>Arquitectura White-Label</h3>
-        <p>
-          Diseñé y mantuve una arquitectura white-label con React Native que permitía
-          compartir el 90% del código base entre 30+ aplicaciones, cada una con su
-          propio branding, configuración y esquema de colores personalizado.
-        </p>
-      </div>
-
-      <div class="experience-card">
-        <h3>Integraciones Firebase</h3>
-        <p>
-          Implementé Firebase Auth, Firestore, Cloud Messaging, Storage y Crashlytics
-          en múltiples aplicaciones, garantizando sincronización en tiempo real,
-          notificaciones push y monitoreo de errores en producción.
-        </p>
+        <article class="project-card">
+          <div class="project-header">
+            <h3>ServerGraphQL</h3>
+            <span class="project-badge">Backend</span>
+          </div>
+          <p class="project-desc">
+            API backend con Express, MongoDB y WebSockets para suscripciones
+            en tiempo real. Arquitectura modular con Node.js.
+          </p>
+          <div class="project-stack">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>WebSockets</span>
+          </div>
+          <div class="project-links"></div>
+        </article>
       </div>
     </section>
 
     <section id="contacto">
       <h2>Contacto</h2>
-      <p class="section-subtitle">Estoy disponible para oportunidades laborales remotas</p>
+      <p class="section-subtitle">Disponible para oportunidades laborales remotas</p>
 
       <div class="contact-links">
         <a href="mailto:sosagonzales0409@gmail.com" class="contact-card">
@@ -251,17 +223,17 @@
           <span class="contact-label">LinkedIn</span>
           <span>luis-sosa-reactnative</span>
         </a>
-        <a href="https://github.com/LuisSosaDev" target="_blank" class="contact-card">
+        <a href="https://github.com/sosagonzales0409-max" target="_blank" class="contact-card">
           <span class="contact-icon">GH</span>
           <span class="contact-label">GitHub</span>
-          <span>LuisSosaDev</span>
+          <span>sosagonzales0409-max</span>
         </a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Luis Alberto Sosa González — React Native Developer</p>
+    <p>&copy; 2026 Luis Alberto Sosa González — Frontend Developer</p>
   </footer>
 </body>
 </html>
